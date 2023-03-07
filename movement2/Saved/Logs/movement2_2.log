@@ -1569,3 +1569,128 @@ Recommended: 22.2.2
 [2023.03.07-17.35.34:858][864]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
 [2023.03.07-17.35.34:859][864]LogContentValidation: Display: Validating WidgetBlueprint /Game/FirstPerson/Blueprints/Health_Bar_alpha.Health_Bar_alpha
 [2023.03.07-17.35.51:661][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.03.07-17.46.55:843][113]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.07-17.46.55:867][113]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.07-17.46.55:867][113]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.07-17.46.55:867][113]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.07-17.46.55:867][113]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.07-17.46.55:867][113]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.07-17.46.55:867][113]LogWorldPartition: Display: GetPartitionedActors took 71 us
+[2023.03.07-17.46.55:868][113]LogWorldPartition: Display: GenerateStreaming took 477 us
+[2023.03.07-17.46.55:868][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.07-17.46.55:868][113]PIE: New page: PIE session: FirstPersonMap (Mar 7, 2023, 1:46:55 AM)
+[2023.03.07-17.46.55:868][113]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.03.07-17.46.55:875][113]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.07-17.46.55:876][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007121s)
+[2023.03.07-17.46.55:876][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007193s)
+[2023.03.07-17.46.55:876][113]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.07-17.46.55:876][113]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.03.07-17.46.55:878][113]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.07-17.46.55:878][113]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.07-17.46.55:879][113]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.03.07-17.46.55:879][113]LogPlayLevel: PIE: World Init took: (0.003457s)
+[2023.03.07-17.46.55:937][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.03.07-17.46.55:939][113]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.03.07-17.46.55:939][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.07-17.46.55:939][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.07-17.46.55:939][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.07-17.46.55:939][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.07-17.46.55:939][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.07-17.46.55:939][113]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.07-17.46.55:939][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.07-17.46.55:939][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.07-17.46.55:940][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.07-17.46.55:940][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.07-17.46.55:940][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.07-17.46.55:944][113]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.07-17.46.55:967][113]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2023.03.07-17.46.55:967][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.07-17.46.55:967][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.07-17.46.55:967][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.07-17.46.55:969][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.03.07-17.46.55:969][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.03.07-17.46.55:971][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.03.07-17.46.55:971][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.03.07-17.46.55:971][113]LogInit: FAudioDevice initialized.
+[2023.03.07-17.46.55:971][113]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2023.03.07-17.46.55:983][113]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.07-17.46.55:985][113]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.03.07-09.46.55
+[2023.03.07-17.46.55:985][113]LogWorld: Bringing up level for play took: 0.002388
+[2023.03.07-17.46.55:988][113]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.03.07-17.46.55:989][113]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.03.07-17.46.55:989][113]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.07-17.46.55:990][113]PIE: Server logged in
+[2023.03.07-17.46.55:990][113]PIE: Play in editor total start time 0.129 seconds.
+[2023.03.07-17.47.01:268][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.01:268][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.01:733][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.01:733][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.02:232][651]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.02:232][651]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.02:693][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.02:693][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.03:110][728]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.03:110][728]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.03:573][768]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.03:573][768]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.03:955][802]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.03:955][802]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.04:423][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.04:423][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.04:831][879]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.04:831][879]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.05:235][914]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.05:236][914]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Health_Bar". Node:  Update Health Bar Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2023.03.07-17.47.05:236][914]Cmd: RestartLevel
+[2023.03.07-17.47.05:243][915]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap?restart
+[2023.03.07-17.47.05:244][915]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.03.07-17.47.05:244][915]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.03.07-17.47.05:244][915]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.07-17.47.05:244][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.07-17.47.05:344][915]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.07-17.47.05:348][915]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.03.07-17.47.05:350][915]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.03.07-17.47.05:357][915]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.07-17.47.05:357][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006534s)
+[2023.03.07-17.47.05:357][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006626s)
+[2023.03.07-17.47.05:357][915]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2023.03.07-17.47.05:357][915]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.07-17.47.05:357][915]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.03.07-17.47.05:359][915]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.07-17.47.05:359][915]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.07-17.47.05:360][915]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.03.07-17.47.05:360][915]LogPlayLevel: PIE: World Init took: (0.003492s)
+[2023.03.07-17.47.05:360][915]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.07-17.47.05:363][915]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.03.07-09.47.05
+[2023.03.07-17.47.05:363][915]LogWorld: Bringing up level for play took: 0.002215
+[2023.03.07-17.47.05:365][915]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.03.07-17.47.05:365][915]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.07-17.47.05:365][915]LogLoad: Took 0.122090 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.03.07-17.47.09:452][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.07-17.47.09:452][247]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.03.07-17.47.09:452][247]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.07-17.47.09:452][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.07-17.47.09:463][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.07-17.47.09:470][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.07-17.47.09:523][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.07-17.47.09:523][247]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.03.07-17.47.09:525][247]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.03.07-17.47.09:534][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.03.07-17.47.09:718][248]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.03.07-17.47.18:627][802]LogSlate: Window 'Message Log' being destroyed
+[2023.03.07-17.47.18:647][802]LogSlate: Window 'Message Log' being destroyed
+[2023.03.07-17.47.34:061][135]LogEditorTransaction: Undo Delete current selection
+[2023.03.07-17.47.34:370][138]LogEditorTransaction: Undo Add Node
+[2023.03.07-17.47.36:268][286]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.03.07-17.47.36:371][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2023.03.07-17.48.05:095][496]LogEditorTransaction: Undo Straighten Connection(s)
+[2023.03.07-17.48.26:212][125]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.03.07-17.48.26:318][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.03.07-17.48.56:697][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2023.03.07-17.48.56:702][470]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.060
+[2023.03.07-17.48.56:702][470]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2023.03.07-17.48.56:710][470]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2023.03.07-17.48.56:710][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2023.03.07-17.48.56:749][470]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto5
+[2023.03.07-17.48.56:751][470]LogSavePackage: Moving '../../../../../../Users/150075030/Documents/Unreal Projects/movement2/Saved/BP_FirstPersonCharacter_Auto5F133E974449A44429A821993B2884B57.tmp' to '../../../../../../Users/150075030/Documents/Unreal Projects/movement2/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto5.uasset'
+[2023.03.07-17.48.56:755][470]LogFileHelpers: Auto-saving content packages took 0.053
