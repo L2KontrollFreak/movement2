@@ -1,0 +1,32 @@
+[0307/081712.392:ERROR:database.cc(1632)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE is_persistent != 1
+[0307/081712.402:WARNING:sqlite_persistent_cookie_store.cc(1343)] Unable to delete session cookies.
+[0307/081716.036:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0307/081716.036:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.036:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.036:ERROR:entry_impl.cc(1076)] No file for c1030002
+[0307/081716.036:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.036:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.036:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.036:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.037:ERROR:entry_impl.cc(1076)] No file for c1030004
+[0307/081716.044:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.044:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.063:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.063:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0307/081716.063:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.063:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.064:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.064:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.064:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.064:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.064:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.104:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.130:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+[0307/081716.131:ERROR:cache_util.cc(139)] Unable to move cache folder C:/Users/150075030/Documents/Unreal Projects/movement2/Saved/webcache_4147\Cache to C:/Users/150075030/Documents/Unreal Projects/movement2/Saved/webcache_4147\old_Cache_000
+[0307/081716.166:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.166:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.166:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.166:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081716.166:ERROR:entry_impl.cc(1076)] No file for a3010008
+[0307/081716.168:WARNING:storage_block-inl.h(146)] Failed data load.
+[0307/081727.500:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
