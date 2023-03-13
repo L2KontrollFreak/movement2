@@ -955,3 +955,12 @@ Recommended: 22.2.2
 [2023.03.13-16.06.41:764][313]LogSavePackage: Moving '../../../../../../Users/150075030/Documents/Unreal Projects/movement2/Saved/FP_Door_interactD44A709F4DFC0CB53236C4846D9B1204.tmp' to '../../../../../../Users/150075030/Documents/Unreal Projects/movement2/Content/FirstPerson/Blueprints/Door/FP_Door_interact.uasset'
 [2023.03.13-16.06.41:783][313]AssetCheck: New page: Asset Save: FP_Door_interact
 [2023.03.13-16.06.41:783][313]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/Door/FP_Door_interact.FP_Door_interact
+[2023.03.13-16.09.28:350][538]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.03.13-16.09.28:350][538]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.13-16.10.15:101][542]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.13-16.10.22:268][179]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.03.13-16.10.22:361][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.03.13-16.10.23:913][288]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.03.13-16.10.23:916][288]LogSavePackage: Moving '../../../../../../Users/150075030/Documents/Unreal Projects/movement2/Saved/BP_FirstPersonCharacterA3F2F876491FF3BF34767181B07292E2.tmp' to '../../../../../../Users/150075030/Documents/Unreal Projects/movement2/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.03.13-16.10.23:940][288]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.03.13-16.10.23:940][288]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
